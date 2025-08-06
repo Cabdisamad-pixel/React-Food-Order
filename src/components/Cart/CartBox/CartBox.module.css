@@ -1,0 +1,95 @@
+/* .Cart{
+    position: fixed;
+    width: 60%;
+    height: auto;
+    background-color: #fff;
+    top: 7rem;
+    margin-left: 21rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    z-index: 100;
+} */
+
+.mealContainer{
+    /* height: 25rem; */
+    /* overflow: scroll; */
+}
+.itemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid rgb(220, 181, 53) ;
+}
+.Item{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    display: flex;
+    /* background-color: aqua; */
+    width: 21rem;
+    padding: 1rem;
+
+}
+.Item .name{
+
+    margin-left: 1rem;
+    
+}
+.description .price{
+    margin-right: 3rem;
+    margin-top: 0.4rem;
+    color: goldenrod;
+    font-size: larger;
+}
+
+.description .amount{
+    margin-top: 0%;
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: 3px;
+    width: 3.5rem;
+    height: 2.2rem;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemContainer .plusAndMinus{
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    position: relative;
+}
+.itemContainer .plusAndMinus .Buttons{
+    position: absolute;
+    right: 0%;
+    /* background-color: aquamarine; */
+    width: 10rem;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    bottom: -0.5rem;
+}
+.itemContainer .plusAndMinus .Buttons button{
+    width: 3.6rem;
+    height: 2.2rem;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border: 1px solid goldenrod;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    
+}
+.itemContainer .plusAndMinus .Buttons button:hover{
+    background-color: rgb(126, 38, 6);
+}
+.itemContainer .plusAndMinus button:hover{
+    background-color: goldenrod;
+    color: #fff;
+}

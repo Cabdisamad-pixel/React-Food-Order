@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.input{
+    padding: 1rem;
+    width: 10rem;
+    margin-left: 4rem;
+    
+}
+.input label{
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+    font-weight: 600;
+    font-size: larger;
+    overflow: hidden;
+}
+.input input{
+    width: 2.6rem;
+    height: 1.7rem;
+    margin-right: 0%;
+    border: solid 1px gray;
+    outline: none;
+    font-size: large;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.input button{
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: brown;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}

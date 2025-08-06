@@ -1,0 +1,12 @@
+.MealsContainer{
+    background-color: rgb(243, 248, 248);
+    width: 75%;
+    padding: 2rem;
+    height: 43rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 12rem;
+    margin-left: 14.5rem;
+    border-radius: 1rem;
+}

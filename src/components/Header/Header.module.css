@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 7.5rem;
+    justify-content: space-between; 
+    background-color: brown;
+    color: #fff;
+    padding: 1rem;
+    /* top: 0%; */
+}
+.Logo{
+    /* margin:1rem ; */
+    font-size: 3rem;
+    transform: rotate(360deg);
+}
