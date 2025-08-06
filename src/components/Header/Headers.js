@@ -7,7 +7,7 @@ const Headers = () => {
     return(
         <header>
             <div className= {style.Logo}>
-                <img src={image} style={{with:'100px', height:'100px'}} />
+                <img src={image}  />
             </div>
             <Button/>
         </header>

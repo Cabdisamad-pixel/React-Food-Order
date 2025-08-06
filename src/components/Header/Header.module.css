@@ -12,5 +12,18 @@ header{
 .Logo{
     /* margin:1rem ; */
     font-size: 3rem;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
+}
+.Logo img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 768px) {
+  .Logo img{
+    width: 65px;
+    height: 65px;
+  }
+  header{
+    height: 5.9rem;
+  }
 }
