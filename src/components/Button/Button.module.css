@@ -32,3 +32,10 @@ button h3{
     font-weight: 500;
     font-size: large;
 }
+@media (max-width: 768px) {
+  button{
+    width: 12.2rem;
+    height: 3rem;
+    margin-top: 0%;
+  }
+}
